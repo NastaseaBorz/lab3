@@ -1,7 +1,5 @@
 language: generic
 matrix:
-  notifications:
-    email: false
   include:
     - os: linux
       sudo: required
