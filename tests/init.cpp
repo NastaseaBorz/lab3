@@ -1,7 +1,7 @@
 #include "../include/foo.h"
 #include "catch.hpp"
 
-SCENARIO("foo: test", "[testing]") {
+TEST_CASE("foo: test", "[testing]") {
 	int a = 4;
 	int b = 2;
 	REQUIRE(foo(a,b) == 1);
